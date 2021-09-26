@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,SelectTreeActivity.class);
                 startActivity(intent);
-                //overridePendingTransition(R.anim.enter_x,R.anim.exit_x);
+                overridePendingTransition(R.anim.enter_x,R.anim.exit_x);
             }
         });
 
